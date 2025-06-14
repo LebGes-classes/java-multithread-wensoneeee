@@ -14,8 +14,8 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 
 public class WeatherBot extends TelegramLongPollingBot {
-    private final String botToken = "7666430732:AAEWeYUrD0ZqGdLVx9Aet37m3EOjLnDbGRk";//ключ тг
-    private final String apiKey = "83d2d459aef92b1bcd2e0d8ae63a39f0"; // апи погоды
+    private final String botToken = "lalala";//ключ тг
+    private final String apiKey = "lalala"; // апи погоды
     private final ExecutorService executor = Executors.newFixedThreadPool(10); // всего максимум 10 потоков
 
     @Override
